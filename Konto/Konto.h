@@ -4,16 +4,16 @@
 class Konto 
 {
     private:
-    int Kontostand = 10000;
+    int kontostand = 10000;
 
     public:
     int getKontostand()
     {
-        return Kontostand;
+        return kontostand;
     }
 
     void setKontostand(int kontostand)
     {
-        Kontostand = kontostand;
+        this->kontostand = kontostand;
     }
 };
