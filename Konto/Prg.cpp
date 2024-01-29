@@ -6,14 +6,14 @@ void output(Konto konto[])
 {
     for (int i = 0; i < 3; i++)
     {
-        std::cout << "Konto " << (i+1) << ": " << konto[i].getKontostand() << "\n==========" << std::endl;
+        std::cout << "Konto " << (i+1) << ": " << konto[i].getKontostand() << "\n----------" << std::endl;
     }
     return;
 }
 
 void line()
 {
-    std::cout << "\n==========" << std::endl;
+    std::cout << "\n----------" << std::endl;
     return;
 }
 
